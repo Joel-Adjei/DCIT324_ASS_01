@@ -1,8 +1,34 @@
-# Welcome to your Expo app 👋
+# DCIT 324 - Practical Assignment 1
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Task Manager App Built with React Native and Expo
 
-## Get started
+This project is a React Native mobile application built with Expo as part of Practical Assignment 1 for DCIT 324. The app recreates a task manager home screen inspired by a provided Figma design and extends it with additional categories and ongoing tasks while keeping the visual style consistent.
+
+## Project Goal
+
+The main objective of this assignment was to:
+
+- rebuild a task manager home screen in React Native
+- match the layout, colors, spacing, and typography of the reference design
+- add more category cards and task cards to improve the screen experience
+- ensure the interface remains scrollable and user-friendly
+
+## Features Implemented
+
+- Welcome header with profile section
+- Search bar and filter button
+- Categories section with multiple category cards
+- Ongoing Tasks section with expanded task list
+- Responsive layout using React Native components such as View, Text, Image, ScrollView, and TouchableOpacity
+- Consistent styling inspired by the provided design
+
+## Project Structure
+
+- app/ - main application screens and components
+- assets/ - images and static assets
+- config/ - sample data used for categories and tasks
+
+## How to Run
 
 1. Install dependencies
 
@@ -10,41 +36,24 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
-2. Start the app
+2. Start the Expo development server
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. Open the app using:
+   - Expo Go on your phone
+   - an Android emulator
+   - an iOS simulator
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Technologies Used
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- React Native
+- Expo
+- TypeScript
+- React Native components and styling
 
-## Get a fresh project
+## Assignment Summary
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This assignment demonstrates the ability to build and extend a single-screen mobile UI in React Native while maintaining a polished and consistent design. The app includes both the base layout from the reference and additional custom content added to meet the assignment requirements.

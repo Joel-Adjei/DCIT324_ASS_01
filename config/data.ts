@@ -15,31 +15,31 @@ export const categories = [
     id: "3",
     name: "Work",
     taskCount: 12,
-    image: require("@/assets/img_05.png"),
+    image: require("@/assets/img_05.jpg"),
   },
   {
     id: "4",
     name: "Health",
     taskCount: 12,
-    image: require("@/assets/img_04.png"),
+    image: require("@/assets/img_04.jpg"),
   },
   {
     id: "5",
     name: "Study",
     taskCount: 12,
-    image: require("@/assets/img_03.png"),
+    image: require("@/assets/img_03.jpg"),
   },
   {
     id: "6",
     name: "Leisure",
     taskCount: 8,
-    image: require("@/assets/img_06.png"),
+    image: require("@/assets/img_06.jpg"),
   },
   {
     id: "7",
     name: "Travel",
     taskCount: 6,
-    image: require("@/assets/img_07.png"),
+    image: require("@/assets/img_07.jpg"),
   },
 ];
 

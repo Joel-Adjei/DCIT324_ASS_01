@@ -16,7 +16,7 @@ export default function Categories() {
             <Text>{item.taskCount} tasks</Text>
 
             <View>
-              <Image source={item.image} />
+              <Image style={styles.img} source={item.image} />
             </View>
           </View>
         )}
@@ -44,5 +44,10 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: "bold",
     marginBottom: 3,
+  },
+  img: {
+    height: 250,
+    width: 250,
+    borderRadius: 10,
   },
 });
